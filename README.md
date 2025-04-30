@@ -7,9 +7,9 @@ Each major functionality is encapsulated in its own .py file, while a unified ap
 
 **1. Clone the repository**
 
-git clone https://github.com/yourusername/HR-Analytics-Pipeline.git
+git clone https://github.com/yourusername/HR-Analytics-Clean.git
 
-cd HR-Analytics-Pipeline
+cd HR-Analytics-Clean
 
 **2. Create .env file**
 
