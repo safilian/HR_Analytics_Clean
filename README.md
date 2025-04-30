@@ -1,9 +1,9 @@
-**Overal Description**
+#**Overal Description**
 This repository contains a modular pipeline for processing HR survey data — including synthetic survey generation, sentiment analysis, summarization, key phrase extraction, and PDF content parsing — all built using OpenAI and Azure AI services.
 
 Each major functionality is encapsulated in its own .py file, while a unified app.py provides API endpoints for simplified testing. The project is secured using a basic API key mechanism and structured to support scalable automation or integration
 
-✅ Environment Setup
+#✅ Environment Setup
 
 **1. Clone the repository**
 
@@ -13,7 +13,7 @@ cd HR-Analytics-Pipeline
 
 **2. Create .env file**
 
-# .env
+**.env Format**
 
 OPENAI_API_KEY=your_openai_key
 
@@ -143,7 +143,7 @@ Receives the output from `generate_survey.py` and uses **Azure AI Language** to 
 ---
 
 ### `CommentSummurization.py`
-Processes the sentiment-enriched data and generates a 1–2 sentence **HR-friendly summary** of each comment using OpenAI.
+Receives the output from `Sentiment_AzureLang.py` and processes the sentiment-enriched data and generates a 1–2 sentence **HR-friendly summary** of each comment using OpenAI.
 
 **Output**:
 - `hr_survey_responses_with_sentiment_summary.json`
@@ -151,7 +151,7 @@ Processes the sentiment-enriched data and generates a 1–2 sentence **HR-friend
 ---
 
 ### `KeyPhrasesExtraction.py`
-Uses Azure AI to extract **key phrases** from each survey comment, helping to identify common topics or themes.
+Receives the output from `CommentSummurization.py` and uses Azure AI to extract **key phrases** from each survey comment, helping to identify common topics or themes.
 
 **Output**:
 - `hr_survey_responses_with_sentiment_summary_keyphrases.json`
