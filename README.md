@@ -1,9 +1,9 @@
-#**Overal Description**
+# **Overal Description**
 This repository contains a modular pipeline for processing HR survey data — including synthetic survey generation, sentiment analysis, summarization, key phrase extraction, and PDF content parsing — all built using OpenAI and Azure AI services.
 
 Each major functionality is encapsulated in its own .py file, while a unified app.py provides API endpoints for simplified testing. The project is secured using a basic API key mechanism and structured to support scalable automation or integration
 
-#✅ Environment Setup
+# ✅ Environment Setup
 
 **1. Clone the repository**
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 python app.py
 
 
-#📁 **Project Structure**
+# 📁 **Project Structure**
 
 HR-Analytics-Clean/
 
@@ -84,10 +84,10 @@ HR-Analytics-Clean/
 
 │   └── PDFsurvey_extracted.json
 
-#🌐 **API Access — app.py**
+# 🌐 **API Access — app.py**
 All five tasks are also exposed as API endpoints through a single Flask application. The endpoints require an API key via the x-api-key header.
 
-#🔐 **Endpoints:**
+🔐 **Endpoints:**
 
 Task	Method	URL	Input Type
 
