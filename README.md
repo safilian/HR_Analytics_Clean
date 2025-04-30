@@ -36,7 +36,7 @@ pip install -r requirements.txt
 python app.py
 
 
-📁 **Project Structure**
+#📁 **Project Structure**
 
 HR-Analytics-Clean/
 
@@ -84,15 +84,84 @@ HR-Analytics-Clean/
 
 │   └── PDFsurvey_extracted.json
 
-🌐 API Access — app.py
+#🌐 **API Access — app.py**
 All five tasks are also exposed as API endpoints through a single Flask application. The endpoints require an API key via the x-api-key header.
 
-🔐 Endpoints:
+#🔐 **Endpoints:**
 
 Task	Method	URL	Input Type
+
 Generate Survey	POST	/generate-surveys	JSON count
+
 Sentiment Analysis	POST	/analyze-sentiment	JSON file
+
 Comment Summarization	POST	/summarize-comments	JSON file
+
 Key Phrase Extraction	POST	/extract-keyphrases	JSON file
+
 PDF Survey Extraction	POST	/extract-surveys	PDF file
 
+🔍 **Sample API Usage (Postman)**
+
+Example: /summarize-comments
+
+Method: POST
+
+Headers:
+
+x-api-key: your_custom_key
+
+Body: form-data
+
+Key: file (type: File)
+
+Value: Upload hr_survey_responses_with_sentiment.json
+
+## 🔧 File Descriptions
+
+### `generate_survey.py`
+Generates up to 30 fictional HR survey responses using OpenAI's GPT-4o model. The output includes:
+- `EmployeeID`
+- `Department`
+- `SatisfactionRating`
+- `Comment`
+
+**Outputs**:
+- `hr_survey_responses2.json`
+- `hr_survey_responses2.csv`
+
+---
+
+### `Sentiment_AzureLang.py`
+Receives the output from `generate_survey.py` and uses **Azure AI Language** to detect:
+- Sentiment (`positive`, `neutral`, `negative`)
+- Confidence scores
+
+**Output**:
+- `hr_survey_responses_with_sentiment.json`
+
+---
+
+### `CommentSummurization.py`
+Processes the sentiment-enriched data and generates a 1–2 sentence **HR-friendly summary** of each comment using OpenAI.
+
+**Output**:
+- `hr_survey_responses_with_sentiment_summary.json`
+
+---
+
+### `KeyPhrasesExtraction.py`
+Uses Azure AI to extract **key phrases** from each survey comment, helping to identify common topics or themes.
+
+**Output**:
+- `hr_survey_responses_with_sentiment_summary_keyphrases.json`
+
+---
+
+### `PDFContentExtraction.py`
+Extracts structured HR survey responses from a PDF using Azure **Document Intelligence** with the `prebuilt-read` model.
+
+**Output**:
+- `PDFsurvey_extracted.json`
+
+---
