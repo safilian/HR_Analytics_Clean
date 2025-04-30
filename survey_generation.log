@@ -1,0 +1,64 @@
+2025-04-30 17:01:50,175 - INFO - Starting HR survey generation process...
+2025-04-30 17:01:50,176 - INFO - Generating comment for EMP001 (Rating: 3)
+2025-04-30 17:01:54,308 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:01:54,320 - INFO - Generating comment for EMP002 (Rating: 5)
+2025-04-30 17:02:03,394 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:03,404 - INFO - Generating comment for EMP003 (Rating: 4)
+2025-04-30 17:02:06,403 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:06,412 - INFO - Generating comment for EMP004 (Rating: 5)
+2025-04-30 17:02:09,332 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:09,345 - INFO - Generating comment for EMP005 (Rating: 1)
+2025-04-30 17:02:13,880 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:13,892 - INFO - Generating comment for EMP006 (Rating: 5)
+2025-04-30 17:02:17,065 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:17,072 - INFO - Generating comment for EMP007 (Rating: 4)
+2025-04-30 17:02:21,308 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:21,323 - INFO - Generating comment for EMP008 (Rating: 5)
+2025-04-30 17:02:24,194 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:24,221 - INFO - Generating comment for EMP009 (Rating: 4)
+2025-04-30 17:02:27,771 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:27,783 - INFO - Generating comment for EMP010 (Rating: 1)
+2025-04-30 17:02:30,686 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:30,699 - INFO - Generating comment for EMP011 (Rating: 3)
+2025-04-30 17:02:34,050 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:34,059 - INFO - Generating comment for EMP012 (Rating: 3)
+2025-04-30 17:02:37,644 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:37,652 - INFO - Generating comment for EMP013 (Rating: 1)
+2025-04-30 17:02:40,502 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:40,510 - INFO - Generating comment for EMP014 (Rating: 4)
+2025-04-30 17:02:45,286 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:45,309 - INFO - Generating comment for EMP015 (Rating: 4)
+2025-04-30 17:02:49,029 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:49,034 - INFO - Generating comment for EMP016 (Rating: 3)
+2025-04-30 17:02:51,947 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:51,960 - INFO - Generating comment for EMP017 (Rating: 1)
+2025-04-30 17:02:56,134 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:56,136 - INFO - Generating comment for EMP018 (Rating: 1)
+2025-04-30 17:02:59,234 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:02:59,241 - INFO - Generating comment for EMP019 (Rating: 4)
+2025-04-30 17:03:02,333 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:03:02,342 - INFO - Generating comment for EMP020 (Rating: 4)
+2025-04-30 17:03:04,955 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:03:04,961 - INFO - Generating comment for EMP021 (Rating: 5)
+2025-04-30 17:03:09,010 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:03:09,016 - INFO - Generating comment for EMP022 (Rating: 4)
+2025-04-30 17:03:12,614 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:03:12,621 - INFO - Generating comment for EMP023 (Rating: 2)
+2025-04-30 17:03:15,617 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:03:15,623 - INFO - Generating comment for EMP024 (Rating: 2)
+2025-04-30 17:03:23,161 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:03:23,169 - INFO - Generating comment for EMP025 (Rating: 2)
+2025-04-30 17:03:26,085 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:03:26,092 - INFO - Generating comment for EMP026 (Rating: 2)
+2025-04-30 17:03:29,255 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:03:29,263 - INFO - Generating comment for EMP027 (Rating: 2)
+2025-04-30 17:03:32,123 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:03:32,130 - INFO - Generating comment for EMP028 (Rating: 1)
+2025-04-30 17:03:35,298 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:03:35,306 - INFO - Generating comment for EMP029 (Rating: 2)
+2025-04-30 17:03:38,298 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:03:38,303 - INFO - Generating comment for EMP030 (Rating: 3)
+2025-04-30 17:03:41,957 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 17:03:41,983 - INFO - Survey generation completed successfully.
+2025-04-30 17:03:41,986 - INFO - CSV file saved: hr_survey_responses3.csv
+2025-04-30 17:03:41,987 - INFO - JSON file saved: hr_survey_responses3.json

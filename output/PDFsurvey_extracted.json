@@ -1,0 +1,20 @@
+[
+    {
+        "EmployeeID": "EMP001",
+        "Department": "Legal",
+        "SatisfactionRating": "1",
+        "Comment": "I am deeply dissatisfied with my current role in the Legal department. The primary issue stems from the overwhelming workload and lack of adequate resources, which makes it nearly impossible to meet deadlines without sacrificing quality. Despite raising these concerns multiple times, there has been little to no response from management. Additionally, there seems to be a significant disconnect between leadership and the team regarding priorities and goals, leading to confusion and misalignment. The lack of recognition for the hard work and long hours put in by the team further exacerbates the frustration. It's disheartening to see efforts go unnoticed, and it feels like there is no clear path for career advancement or professional growth. I believe that urgent attention is needed to address these issues to improve morale and productivity."
+    },
+    {
+        "EmployeeID": "EMP003",
+        "Department": "Customer Support",
+        "SatisfactionRating": "1",
+        "Comment": "I am writing this comment to express my dissatisfaction with the current state of the Customer Support department. As an employee, I feel overwhelmed and under-supported in my role. The workload is consistently heavy, and there seems to be a lack of adequate staffing to handle the volume of customer inquiries we receive on a daily basis. This has led to increased stress and a feeling of being constantly behind. Moreover, I feel that there is a significant gap in communication between management and the support team. Important updates and decisions are often not communicated clearly or are relayed at the last minute, leaving little room for preparation or feedback. This lack of transparency contributes to a feeling of disconnect and frustration among team members. Additionally, opportunities for professional growth and development within the department appear limited. There is a lack of training programs or initiatives that would help us improve our skills or advance our careers. This makes it hard to stay motivated when there seems to be little room for advancement or recognition of hard work. I hope these concerns can be addressed promptly to improve the overall working environment and morale within the department. It would be beneficial to see more effort put into supporting and valuing the contributions of the Customer Support team."
+    },
+    {
+        "EmployeeID": "EMP004",
+        "Department": "Marketing",
+        "SatisfactionRating": "4",
+        "Comment": "I have been with the Marketing department for a couple of years now, and overall, my experience has been very positive. One of the aspects I appreciate the most is the team's collaborative spirit. My colleagues are always willing to share ideas and support each other, which creates a motivating and productive environment. I also value the diverse range of projects I get to work on, which keeps my job interesting and challenging. I've noticed that our department is proactive in adopting new marketing trends and technologies, which helps us stay competitive and innovative. This commitment to growth and learning is something I find particularly rewarding. The leadership is generally supportive and communicative, which fosters a sense of trust and transparency. However, there's always room for improvement. Sometimes, the workload can become a bit overwhelming, especially during peak campaign periods. It would be beneficial if we could explore options for better work-life balance during these times, perhaps by streamlining our processes or ensuring additional support is available. Despite this, I am satisfied with my role and feel valued in my contributions to the team. I look forward to continuing to grow within the company and contributing to its success."
+    }
+]
